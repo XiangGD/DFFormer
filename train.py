@@ -115,11 +115,7 @@ if __name__ == "__main__":
         args.ckpt_path = os.path.join(snapshot_path, 'epo{}.pth'.format(args.continue_model))
         assert os.access(args.ckpt_path, os.F_OK), 'resume path not exits!'
 
-    trainer = {'PS': trainer_forensic,
-               'DEFACTO': trainer_forensic,
-               'CoCo2014': trainer_forensic,
-               'Synth_COCO': trainer_forensic,
-               'CASIA2': trainer_forensic,
-               'IML-MUST': trainer_forensic
+    trainer = {'IML-MUST': trainer_forensic,
+               'CASIA2': trainer_forensic
                }
     trainer[dataset_name](args, net, snapshot_path)
