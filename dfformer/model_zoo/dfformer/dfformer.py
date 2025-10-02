@@ -226,17 +226,3 @@ class DFFormer(nn.Module):
         return output_dict
 
 
-if __name__ == '__main__':
-    img = torch.randn(2, 3, 256, 256).cuda()
-    #img = torch.randn(2, 3, 512, 512).cuda()
-    config = CONFIGS['tc-small']
-    net = DFFormer(config, img_size=256).cuda()
-
-    for name,param in net.named_parameters():   #查看可训练参数
-        if param.requires_grad:
-            #print( name)
-            print('{}:{}:'.format(name,param.shape))
-    n_parameters = sum(p.numel() for p in net.parameters() if p.requires_grad)
-    print(n_parameters)
-    out = net(img)
-    print(out.shape)
