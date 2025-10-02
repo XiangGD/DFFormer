@@ -12,7 +12,7 @@ Thanks for the IMDL-BenCo framework.
 * [Get models in this link](https://drive.google.com/drive/folders/1S1BJyFWw4Tlb_ItdtzL9J1TV_as9tIbt?usp=drive_link): DFFormer-light, DFFormer-small, DFFormer-large
 
 
-### 2. Prepare data
+### 2. Prepare training data: CASIA v2 and IML-MUST
 
 Please download the IML-MUST dataset.<br>
 * [Baidu Disk](https://pan.baidu.com/s/180TzwbTHj1Q3FOvIwT3vyg?pwd=gdit) <br>
