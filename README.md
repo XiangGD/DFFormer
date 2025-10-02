@@ -27,13 +27,13 @@ Please prepare an environment with Python 3.8 and PyTorch 1.10.1, and then use t
 
 ```bash
 #!/bin/bash 
-torchrun --nproc_per_node=n train.py
+python ./dfformer/training_scripts/train.py.
 ```
 
 - Run the test script on the Coverage dataset.
 
 ```bash
-python evaluation.py  --model_name  dfformer-large
+python ./dfformer/training_scripts/test.py  --model_name  dfformer-large
 ```
 
 ### 5. CKPT
