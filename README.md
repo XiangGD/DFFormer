@@ -34,7 +34,7 @@ torchrun --nproc_per_node=n ddp_train.sh
 python ./dfformer/training_scripts/train.py.
 ```
 
-- Run the test script on the Coverage dataset.
+- Run the test script on the test dataset.
 
 ```bash
 python ./dfformer/training_scripts/test.py  --model_name  dfformer-large
