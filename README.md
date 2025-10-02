@@ -1,4 +1,4 @@
-# (TCSVT) DFFormer
+# (TCSVT) DFFormer: Capturing Dynamic Frequency Features to Locate Image Manipulation through Adaptive Frequency Transformer and Prototype Learning
 ![DFFormer Overview](./images/overview.png)
 
 This repo holds code for [DFFormer: Capturing Dynamic Frequency Features to Locate Image Manipulation through Adaptive Frequency Transformer and Prototype Learning](https://ieeexplore.ieee.org/abstract/document/11134492?casa_token=xL_tKcO99U4AAAAA:SdEWW7_g_jw9nhTrvttm8C8WxmA7ehvBc4e7JFLM_fJKfLJ0RLOxj8AnKXXWU1AOWBTFj55d_myr_w)
@@ -24,7 +24,11 @@ Please prepare an environment with Python 3.8 and PyTorch 1.10.1, and then use t
 ### 4. Train/Test
 
 - Run the train script on the CASIA v2 dataset with n GPUs.
-
+```bash
+#!/bin/bash 
+torchrun --nproc_per_node=n ddp_train.sh
+```
+- Or run the train script on the CASIA v2 dataset with a single GPU.
 ```bash
 #!/bin/bash 
 python ./dfformer/training_scripts/train.py.
