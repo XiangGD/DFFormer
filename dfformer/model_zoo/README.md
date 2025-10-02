@@ -1,4 +1,4 @@
 # MODEL_ZOO
-Here is the implementation of the models in `model_zoo` from IMDLBenCo.
+Here is the implementation of some models in `model_zoo` from IMDLBenCo.
 
-You can find the guide to download the pretrained weights of each model under their **sub-folders** here, which is must when you want train each model by yourself.
+You can find the guide to download the pre-trained weights of each model under their **sub-folders** here, where we retrain each model.
