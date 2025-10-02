@@ -9,7 +9,7 @@ Thanks for the IMDL-BenCo framework.
 ## Usage
 
 ### 1. Download pre-trained models
-* [Get models in this link](https://drive.google.com/drive/folders/1S1BJyFWw4Tlb_ItdtzL9J1TV_as9tIbt?usp=drive_link): DFFormer-tinny, DFFormer-small, DFFormer-large
+* [Get models in this link](https://drive.google.com/drive/folders/1S1BJyFWw4Tlb_ItdtzL9J1TV_as9tIbt?usp=drive_link): DFFormer-light, DFFormer-small, DFFormer-large
 
 
 ### 2. Prepare data
