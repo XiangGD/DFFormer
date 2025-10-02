@@ -3,7 +3,7 @@
 
 This repo holds code for [DFFormer: Capturing Dynamic Frequency Features to Locate Image Manipulation through Adaptive Frequency Transformer and Prototype Learning](https://ieeexplore.ieee.org/abstract/document/11134492?casa_token=xL_tKcO99U4AAAAA:SdEWW7_g_jw9nhTrvttm8C8WxmA7ehvBc4e7JFLM_fJKfLJ0RLOxj8AnKXXWU1AOWBTFj55d_myr_w)
 
-Thanks for the IMDL-BenCo code.
+Thanks for the IMDL-BenCo framework.
 
 
 ## Usage
